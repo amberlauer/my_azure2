@@ -1,0 +1,15 @@
+-I/usr/include
+-I/home/amber/executables/root-6.12.06/install/include
+-I/home/amber/Documents/AZURE_new/gui/src/../include
+-I/home/amber/Documents/AZURE_new/include
+-I/usr/include/qwt
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-DUSE_QWT
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/amber/Documents/AZURE_new/build/gui/src/__/include/moc_EditDirsDialog.cxx
+/home/amber/Documents/AZURE_new/gui/include/EditDirsDialog.h
